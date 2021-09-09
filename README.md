@@ -16,19 +16,27 @@ Python jupyter notebooks of plotting my paper's figures.
 
   low_cth.ipynb
 
-- Fig. 5, Fig. 6, Fig. 9, and Fig. 10
+- Fig. 5, Fig. 6, Fig. 9, and Fig. 11
 
   relationships.ipynb
 
 - Fig. 7 and Fig. 8
 
   case_studies.ipynb
+  
+- Fig. 10
+
+  TRMM_IRH_20dbzH.ipynb
 
 ## /scripts
 
 The general program flow is outlined below by [GitMind](https://gitmind.com/). The first step is pre-processing the original GOES-16 ABI, GLM and ERA5 data. Then, the results are passed to track convections. Finally, the lightning data are paired with the tracks and saved into csv files.
 
 <img src="https://github.com/zxdawn/Xin_RS_2021_GOES_lightning/raw/main/figures/workflow.png" width="700">
+
+- combine_trmm_nc.py
+
+  Combine TRMM datasets into one NetCDF file.
 
 ## /data
 
